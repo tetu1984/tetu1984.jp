@@ -20,7 +20,7 @@ hosted_zone "tetu1984.jp." do
   rrset "www.tetu1984.jp.", "CNAME" do
     ttl 300
     resource_records(
-      "ec2-54-248-25-47.ap-northeast-1.compute.amazonaws.com"
+      "www.tetu1984.jp.s3-website-ap-northeast-1.amazonaws.com"
     )
   end
 end
